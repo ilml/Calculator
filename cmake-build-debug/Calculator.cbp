@@ -88,6 +88,18 @@
 		<Unit filename="/Users/dullsome/Desktop/code/Calculator/Input.h">
 			<Option target="Calculator"/>
 		</Unit>
+		<Unit filename="/Users/dullsome/Desktop/code/Calculator/Output.cpp">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="/Users/dullsome/Desktop/code/Calculator/Output.h">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="/Users/dullsome/Desktop/code/Calculator/Symbol.cpp">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="/Users/dullsome/Desktop/code/Calculator/Symbol.h">
+			<Option target="Calculator"/>
+		</Unit>
 		<Unit filename="/Users/dullsome/Desktop/code/Calculator/ToPostfix.cpp">
 			<Option target="Calculator"/>
 		</Unit>

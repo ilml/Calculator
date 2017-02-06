@@ -3,23 +3,43 @@
 #include <stack>
 #include "ToPostfix.h"
 #include "Output.h"
-
-
+#include <sstream>
+#include <iostream>
+using namespace std;
 int main() {
+
+
+     /*
+      //* String Test
+      string a = " 12_+";
+      stringstream test;
+      double b;
+       test<<a;
+       test>>b;
+      std::cout<<b-1;
+      */
+
 
 
     //stack<string,deque<string> > stk;
    // stk.pop();
-     Input test;
+      Input test;
      test.GetString();
      //test.Display();
      //test.Check();
 
-     ToPostfix t1(test.ReturnString());
-     t1.InfixtoPostfix();
-     //t1.Display();
-     Output o(t1.ReturnString());
-     o.Display();
+      ToPostfix t1(test.ReturnString());
+      t1.InfixtoPostfix();
+       t1.Display();
+       Output t2(t1.ReturnString());
+      t2.Calculate();
+      t2.Display();
+     // t1.Display();
+     //Output o(t1.ReturnString());
+     //Output T("2.5 2.5 *");
+     //T.Calculate();
+     //T.Display();
+//     o.Display();
 /*
 
 //stack<string,deque<string> > stk;  //stack initialize

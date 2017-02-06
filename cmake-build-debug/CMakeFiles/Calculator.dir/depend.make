@@ -5,6 +5,12 @@ CMakeFiles/Calculator.dir/Input.cpp.o: ../Input.cpp
 CMakeFiles/Calculator.dir/Input.cpp.o: ../Input.h
 CMakeFiles/Calculator.dir/Input.cpp.o: ../Symbol.h
 
+CMakeFiles/Calculator.dir/Output.cpp.o: ../Output.cpp
+CMakeFiles/Calculator.dir/Output.cpp.o: ../Output.h
+
+CMakeFiles/Calculator.dir/Symbol.cpp.o: ../Symbol.cpp
+CMakeFiles/Calculator.dir/Symbol.cpp.o: ../Symbol.h
+
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o: ../Symbol.h
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o: ../ToPostfix.cpp
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o: ../ToPostfix.h

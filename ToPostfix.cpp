@@ -88,14 +88,27 @@ void ToPostfix::InfixtoPostfix()  {
 
                                  while (IsNumber) {
                                      Temp = *i;
-                                     Postfix.append(" "+Temp+" ");
+                                     Postfix.append(Temp);
+                                     /*
+                                     if(Temp==".") {
+                                         Postfix.pop_back();
+                                         Postfix.append(Temp);
+
+
+                                     }
+                                     else
+                                         Postfix.append(" "+Temp+" ");
+                                         */
                                      //cout<<"Get Number!"<<endl; //test
                                      i += 1;
-                                     if(i==Infix.end())
+                                     if(i==Infix.end()){
+                                         Postfix.append(" ");
                                          IsNumber = false;
+                                     }
                                      else {
                                          for (string::iterator j = Symbol.begin(); j < Symbol.end(); ++j) {
                                              if (*i == *j) {
+                                                 Postfix.append(" ");
                                                  IsNumber = false;
                                                  break;
                                              }
@@ -116,7 +129,7 @@ void ToPostfix::InfixtoPostfix()  {
 
 
 void ToPostfix::Display() {
-    cout<<Postfix;
+    cout<<Postfix<<endl;
 }
 
 string ToPostfix::ReturnString() {

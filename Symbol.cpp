@@ -4,4 +4,4 @@
 
 #include "Symbol.h"
 
-string Symbol = "+-*/()" ;
+extern string Symbol = "+-*/()" ;

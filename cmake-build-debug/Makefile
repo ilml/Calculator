@@ -150,6 +150,60 @@ Input.cpp.s:
 	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Input.cpp.s
 .PHONY : Input.cpp.s
 
+Output.o: Output.cpp.o
+
+.PHONY : Output.o
+
+# target to build an object file
+Output.cpp.o:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Output.cpp.o
+.PHONY : Output.cpp.o
+
+Output.i: Output.cpp.i
+
+.PHONY : Output.i
+
+# target to preprocess a source file
+Output.cpp.i:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Output.cpp.i
+.PHONY : Output.cpp.i
+
+Output.s: Output.cpp.s
+
+.PHONY : Output.s
+
+# target to generate assembly for a file
+Output.cpp.s:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Output.cpp.s
+.PHONY : Output.cpp.s
+
+Symbol.o: Symbol.cpp.o
+
+.PHONY : Symbol.o
+
+# target to build an object file
+Symbol.cpp.o:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Symbol.cpp.o
+.PHONY : Symbol.cpp.o
+
+Symbol.i: Symbol.cpp.i
+
+.PHONY : Symbol.i
+
+# target to preprocess a source file
+Symbol.cpp.i:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Symbol.cpp.i
+.PHONY : Symbol.cpp.i
+
+Symbol.s: Symbol.cpp.s
+
+.PHONY : Symbol.s
+
+# target to generate assembly for a file
+Symbol.cpp.s:
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Symbol.cpp.s
+.PHONY : Symbol.cpp.s
+
 ToPostfix.o: ToPostfix.cpp.o
 
 .PHONY : ToPostfix.o
@@ -216,6 +270,12 @@ help:
 	@echo "... Input.o"
 	@echo "... Input.i"
 	@echo "... Input.s"
+	@echo "... Output.o"
+	@echo "... Output.i"
+	@echo "... Output.s"
+	@echo "... Symbol.o"
+	@echo "... Symbol.i"
+	@echo "... Symbol.s"
 	@echo "... ToPostfix.o"
 	@echo "... ToPostfix.i"
 	@echo "... ToPostfix.s"

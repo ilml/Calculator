@@ -105,9 +105,33 @@ CMakeFiles/Calculator.dir/Input.cpp.o.provides: CMakeFiles/Calculator.dir/Input.
 CMakeFiles/Calculator.dir/Input.cpp.o.provides.build: CMakeFiles/Calculator.dir/Input.cpp.o
 
 
+CMakeFiles/Calculator.dir/Symbol.cpp.o: CMakeFiles/Calculator.dir/flags.make
+CMakeFiles/Calculator.dir/Symbol.cpp.o: ../Symbol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Calculator.dir/Symbol.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Calculator.dir/Symbol.cpp.o -c /Users/dullsome/Desktop/code/Calculator/Symbol.cpp
+
+CMakeFiles/Calculator.dir/Symbol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/Symbol.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dullsome/Desktop/code/Calculator/Symbol.cpp > CMakeFiles/Calculator.dir/Symbol.cpp.i
+
+CMakeFiles/Calculator.dir/Symbol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/Symbol.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dullsome/Desktop/code/Calculator/Symbol.cpp -o CMakeFiles/Calculator.dir/Symbol.cpp.s
+
+CMakeFiles/Calculator.dir/Symbol.cpp.o.requires:
+
+.PHONY : CMakeFiles/Calculator.dir/Symbol.cpp.o.requires
+
+CMakeFiles/Calculator.dir/Symbol.cpp.o.provides: CMakeFiles/Calculator.dir/Symbol.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Symbol.cpp.o.provides.build
+.PHONY : CMakeFiles/Calculator.dir/Symbol.cpp.o.provides
+
+CMakeFiles/Calculator.dir/Symbol.cpp.o.provides.build: CMakeFiles/Calculator.dir/Symbol.cpp.o
+
+
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o: CMakeFiles/Calculator.dir/flags.make
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o: ../ToPostfix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Calculator.dir/ToPostfix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Calculator.dir/ToPostfix.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Calculator.dir/ToPostfix.cpp.o -c /Users/dullsome/Desktop/code/Calculator/ToPostfix.cpp
 
 CMakeFiles/Calculator.dir/ToPostfix.cpp.i: cmake_force
@@ -129,21 +153,49 @@ CMakeFiles/Calculator.dir/ToPostfix.cpp.o.provides: CMakeFiles/Calculator.dir/To
 CMakeFiles/Calculator.dir/ToPostfix.cpp.o.provides.build: CMakeFiles/Calculator.dir/ToPostfix.cpp.o
 
 
+CMakeFiles/Calculator.dir/Output.cpp.o: CMakeFiles/Calculator.dir/flags.make
+CMakeFiles/Calculator.dir/Output.cpp.o: ../Output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Calculator.dir/Output.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Calculator.dir/Output.cpp.o -c /Users/dullsome/Desktop/code/Calculator/Output.cpp
+
+CMakeFiles/Calculator.dir/Output.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/Output.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dullsome/Desktop/code/Calculator/Output.cpp > CMakeFiles/Calculator.dir/Output.cpp.i
+
+CMakeFiles/Calculator.dir/Output.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/Output.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dullsome/Desktop/code/Calculator/Output.cpp -o CMakeFiles/Calculator.dir/Output.cpp.s
+
+CMakeFiles/Calculator.dir/Output.cpp.o.requires:
+
+.PHONY : CMakeFiles/Calculator.dir/Output.cpp.o.requires
+
+CMakeFiles/Calculator.dir/Output.cpp.o.provides: CMakeFiles/Calculator.dir/Output.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/Output.cpp.o.provides.build
+.PHONY : CMakeFiles/Calculator.dir/Output.cpp.o.provides
+
+CMakeFiles/Calculator.dir/Output.cpp.o.provides.build: CMakeFiles/Calculator.dir/Output.cpp.o
+
+
 # Object files for target Calculator
 Calculator_OBJECTS = \
 "CMakeFiles/Calculator.dir/main.cpp.o" \
 "CMakeFiles/Calculator.dir/Input.cpp.o" \
-"CMakeFiles/Calculator.dir/ToPostfix.cpp.o"
+"CMakeFiles/Calculator.dir/Symbol.cpp.o" \
+"CMakeFiles/Calculator.dir/ToPostfix.cpp.o" \
+"CMakeFiles/Calculator.dir/Output.cpp.o"
 
 # External object files for target Calculator
 Calculator_EXTERNAL_OBJECTS =
 
 Calculator: CMakeFiles/Calculator.dir/main.cpp.o
 Calculator: CMakeFiles/Calculator.dir/Input.cpp.o
+Calculator: CMakeFiles/Calculator.dir/Symbol.cpp.o
 Calculator: CMakeFiles/Calculator.dir/ToPostfix.cpp.o
+Calculator: CMakeFiles/Calculator.dir/Output.cpp.o
 Calculator: CMakeFiles/Calculator.dir/build.make
 Calculator: CMakeFiles/Calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dullsome/Desktop/code/Calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,7 +205,9 @@ CMakeFiles/Calculator.dir/build: Calculator
 
 CMakeFiles/Calculator.dir/requires: CMakeFiles/Calculator.dir/main.cpp.o.requires
 CMakeFiles/Calculator.dir/requires: CMakeFiles/Calculator.dir/Input.cpp.o.requires
+CMakeFiles/Calculator.dir/requires: CMakeFiles/Calculator.dir/Symbol.cpp.o.requires
 CMakeFiles/Calculator.dir/requires: CMakeFiles/Calculator.dir/ToPostfix.cpp.o.requires
+CMakeFiles/Calculator.dir/requires: CMakeFiles/Calculator.dir/Output.cpp.o.requires
 
 .PHONY : CMakeFiles/Calculator.dir/requires
 

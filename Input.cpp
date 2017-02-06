@@ -4,7 +4,6 @@
 
 #include "Input.h"
 #include <iostream>
-
 void Input::GetString() {
      cin>>Input;
 }

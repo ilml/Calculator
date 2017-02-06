@@ -16,11 +16,23 @@ iostream
 Symbol.h
 /Users/dullsome/Desktop/code/Calculator/Symbol.h
 
+/Users/dullsome/Desktop/code/Calculator/Output.cpp
+Output.h
+/Users/dullsome/Desktop/code/Calculator/Output.h
+iostream
+-
+sstream
+-
+
 /Users/dullsome/Desktop/code/Calculator/Output.h
 stack
 -
 string
 -
+
+/Users/dullsome/Desktop/code/Calculator/Symbol.cpp
+Symbol.h
+/Users/dullsome/Desktop/code/Calculator/Symbol.h
 
 /Users/dullsome/Desktop/code/Calculator/Symbol.h
 string
@@ -51,4 +63,8 @@ ToPostfix.h
 /Users/dullsome/Desktop/code/Calculator/ToPostfix.h
 Output.h
 /Users/dullsome/Desktop/code/Calculator/Output.h
+sstream
+-
+iostream
+-
 

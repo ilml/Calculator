@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Calculator.dir/main.cpp.o"
   "CMakeFiles/Calculator.dir/Input.cpp.o"
+  "CMakeFiles/Calculator.dir/Symbol.cpp.o"
   "CMakeFiles/Calculator.dir/ToPostfix.cpp.o"
+  "CMakeFiles/Calculator.dir/Output.cpp.o"
   "Calculator.pdb"
   "Calculator"
 )
